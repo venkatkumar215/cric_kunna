@@ -1,0 +1,44 @@
+.cric_navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    .cric_navBar-link{       
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+       align-items: center;
+    .cric_navBar-link__container{
+        display: flex;
+        flex-direction: row;
+        margin: 0 2rem;
+    }
+    .cric_navBar-Content_list {
+        align-content: center;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 900;
+        list-style: none;
+        padding: 0rem 0.5rem;
+        line-height: 25px;  
+        color:black;
+        cursor: pointer;
+        margin: 0;    
+        
+    }
+
+  
+    }
+    .cric_navBar-link__icons{
+        float:right;
+        display: flex;
+        list-style: none;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+
+    
+}
+

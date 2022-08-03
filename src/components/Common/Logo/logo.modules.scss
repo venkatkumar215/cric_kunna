@@ -1,0 +1,22 @@
+@import '../../../styles/index.scss';
+
+.cric_logo{
+display:flex;
+    .cric_logo-Img{
+        display: inline-block;
+        align-items: center;
+        img{
+            width:4rem;
+            height:4rem;
+        }
+    }
+    .cric_logo-Content{
+        display: inline-block;
+        color: #0cd7a8;
+        text-align: center;
+        font-size: 14px;
+        padding-top: 0.2rem;
+    
+    }
+}
+
