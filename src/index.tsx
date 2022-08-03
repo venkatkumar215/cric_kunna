@@ -8,9 +8,6 @@ import './index.scss';
 import { persistStore } from 'redux-persist';
 import { PersistGate } from 'redux-persist/integration/react';
 
-// Font Awesome
-
-import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
